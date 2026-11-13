@@ -35,7 +35,7 @@ import pandas as pd
 # file1 = pd.read_csv('retail_orders.csv',index_col="order_id")
 # print(file1)
 
-performance = pd.read_csv("employee_performance.csv",index_col='employee_id')[['monthly_salary']].squeeze("columns")
+# performance = pd.read_csv("employee_performance.csv",index_col='employee_id')[['monthly_salary']].squeeze("columns")
 # print(type(performance))
 
 # # file2 = pd.read_csv("employee_performance.csv")
@@ -70,11 +70,13 @@ performance = pd.read_csv("employee_performance.csv",index_col='employee_id')[['
 # dataframe1 = pd.DataFrame(list1,columns=['salary','age','height','weight','score'],index=['emp1','emp2'])
 # print(dataframe1)
 
-file1 = pd.read_csv('employee_performance.csv')
-# print(file1.dtypes)
+# file1 = pd.read_csv('employee_performance.csv')
+# # print(file1.dtypes)
 
 # print(file1[['monthly_salary']].sum(axis=0))
 
 # print(file1.rename(columns=['monthly_salary':'new_salary']))
 
-print(file1.loc[['EMP001','EMP002','EMP003']])
+# print(file1.loc[['EMP001','EMP002','EMP003']])
+
+print("hello world")
