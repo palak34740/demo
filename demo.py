@@ -77,6 +77,12 @@ import pandas as pd
 
 # print(file1.rename(columns=['monthly_salary':'new_salary']))
 
+<<<<<<< HEAD
 # print(file1.loc[['EMP001','EMP002','EMP003']])
 
 print("hello world")
+=======
+print(file1.loc[['EMP001','EMP002','EMP003']])
+
+print("hello world")
+>>>>>>> fd8c2def5bbdde5bb6827dc6ab89989953152fa6
