@@ -78,3 +78,5 @@ file1 = pd.read_csv('employee_performance.csv')
 # print(file1.rename(columns=['monthly_salary':'new_salary']))
 
 print(file1.loc[['EMP001','EMP002','EMP003']])
+
+print("hello world")
